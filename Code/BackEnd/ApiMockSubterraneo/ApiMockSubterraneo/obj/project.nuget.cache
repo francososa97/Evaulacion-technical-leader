@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "G5LjGfidDQwGtiiokIcqhyngpsColjTkLttjSkBMF2eXMewNBZfardi3c3yvJXYj3a6e0TVcQ5fBy4rbyh26Yg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\usuario\\source\\repos\\ApiMockSubterraneo\\ApiMockSubterraneo\\ApiMockSubterraneo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\usuario\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

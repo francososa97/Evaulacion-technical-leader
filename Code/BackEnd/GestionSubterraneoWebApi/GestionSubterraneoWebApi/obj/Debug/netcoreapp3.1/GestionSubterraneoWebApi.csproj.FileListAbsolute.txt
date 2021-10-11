@@ -48,6 +48,9 @@ C:\Users\usuario\Desktop\Evaulacion-technical-leader-Pwc\Code\BackEnd\GestionSub
 C:\Users\usuario\Desktop\Evaulacion-technical-leader-Pwc\Code\BackEnd\GestionSubterraneoWebApi\GestionSubterraneoWebApi\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
 C:\Users\usuario\Desktop\Evaulacion-technical-leader-Pwc\Code\BackEnd\GestionSubterraneoWebApi\GestionSubterraneoWebApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\usuario\Desktop\Evaulacion-technical-leader-Pwc\Code\BackEnd\GestionSubterraneoWebApi\GestionSubterraneoWebApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\usuario\Desktop\Evaulacion-technical-leader-Pwc\Code\BackEnd\GestionSubterraneoWebApi\GestionSubterraneoWebApi\bin\Debug\netcoreapp3.1\Modelos.dll
+C:\Users\usuario\Desktop\Evaulacion-technical-leader-Pwc\Code\BackEnd\GestionSubterraneoWebApi\GestionSubterraneoWebApi\bin\Debug\netcoreapp3.1\Modelos.pdb
+C:\Users\usuario\Desktop\Evaulacion-technical-leader-Pwc\Code\BackEnd\GestionSubterraneoWebApi\GestionSubterraneoWebApi\obj\Debug\netcoreapp3.1\GestionSubterraneoWebApi.csprojAssemblyReference.cache
 C:\Users\usuario\Desktop\Evaulacion-technical-leader-Pwc\Code\BackEnd\GestionSubterraneoWebApi\GestionSubterraneoWebApi\obj\Debug\netcoreapp3.1\GestionSubterraneoWebApi.AssemblyInfoInputs.cache
 C:\Users\usuario\Desktop\Evaulacion-technical-leader-Pwc\Code\BackEnd\GestionSubterraneoWebApi\GestionSubterraneoWebApi\obj\Debug\netcoreapp3.1\GestionSubterraneoWebApi.AssemblyInfo.cs
 C:\Users\usuario\Desktop\Evaulacion-technical-leader-Pwc\Code\BackEnd\GestionSubterraneoWebApi\GestionSubterraneoWebApi\obj\Debug\netcoreapp3.1\GestionSubterraneoWebApi.csproj.CoreCompileInputs.cache
@@ -60,4 +63,3 @@ C:\Users\usuario\Desktop\Evaulacion-technical-leader-Pwc\Code\BackEnd\GestionSub
 C:\Users\usuario\Desktop\Evaulacion-technical-leader-Pwc\Code\BackEnd\GestionSubterraneoWebApi\GestionSubterraneoWebApi\obj\Debug\netcoreapp3.1\GestionSubterraneoWebApi.dll
 C:\Users\usuario\Desktop\Evaulacion-technical-leader-Pwc\Code\BackEnd\GestionSubterraneoWebApi\GestionSubterraneoWebApi\obj\Debug\netcoreapp3.1\GestionSubterraneoWebApi.pdb
 C:\Users\usuario\Desktop\Evaulacion-technical-leader-Pwc\Code\BackEnd\GestionSubterraneoWebApi\GestionSubterraneoWebApi\obj\Debug\netcoreapp3.1\GestionSubterraneoWebApi.genruntimeconfig.cache
-C:\Users\usuario\Desktop\Evaulacion-technical-leader-Pwc\Code\BackEnd\GestionSubterraneoWebApi\GestionSubterraneoWebApi\obj\Debug\netcoreapp3.1\GestionSubterraneoWebApi.csprojAssemblyReference.cache

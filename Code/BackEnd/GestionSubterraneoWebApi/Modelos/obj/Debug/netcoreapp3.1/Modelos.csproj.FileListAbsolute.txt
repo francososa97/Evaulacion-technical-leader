@@ -1,0 +1,8 @@
+C:\Users\usuario\Desktop\Evaulacion-technical-leader-Pwc\Code\BackEnd\GestionSubterraneoWebApi\Modelos\bin\Debug\netcoreapp3.1\Modelos.deps.json
+C:\Users\usuario\Desktop\Evaulacion-technical-leader-Pwc\Code\BackEnd\GestionSubterraneoWebApi\Modelos\bin\Debug\netcoreapp3.1\Modelos.dll
+C:\Users\usuario\Desktop\Evaulacion-technical-leader-Pwc\Code\BackEnd\GestionSubterraneoWebApi\Modelos\bin\Debug\netcoreapp3.1\Modelos.pdb
+C:\Users\usuario\Desktop\Evaulacion-technical-leader-Pwc\Code\BackEnd\GestionSubterraneoWebApi\Modelos\obj\Debug\netcoreapp3.1\Modelos.AssemblyInfoInputs.cache
+C:\Users\usuario\Desktop\Evaulacion-technical-leader-Pwc\Code\BackEnd\GestionSubterraneoWebApi\Modelos\obj\Debug\netcoreapp3.1\Modelos.AssemblyInfo.cs
+C:\Users\usuario\Desktop\Evaulacion-technical-leader-Pwc\Code\BackEnd\GestionSubterraneoWebApi\Modelos\obj\Debug\netcoreapp3.1\Modelos.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Desktop\Evaulacion-technical-leader-Pwc\Code\BackEnd\GestionSubterraneoWebApi\Modelos\obj\Debug\netcoreapp3.1\Modelos.dll
+C:\Users\usuario\Desktop\Evaulacion-technical-leader-Pwc\Code\BackEnd\GestionSubterraneoWebApi\Modelos\obj\Debug\netcoreapp3.1\Modelos.pdb

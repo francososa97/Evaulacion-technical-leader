@@ -1,0 +1,12 @@
+C:\Users\usuario\Desktop\Evaulacion-technical-leader-Pwc\Code\BackEnd\GestionSubterraneoWebApi\GestionApiForecastGTFS\obj\Debug\netcoreapp3.1\GestionApiForecastGTFS.AssemblyInfoInputs.cache
+C:\Users\usuario\Desktop\Evaulacion-technical-leader-Pwc\Code\BackEnd\GestionSubterraneoWebApi\GestionApiForecastGTFS\obj\Debug\netcoreapp3.1\GestionApiForecastGTFS.AssemblyInfo.cs
+C:\Users\usuario\Desktop\Evaulacion-technical-leader-Pwc\Code\BackEnd\GestionSubterraneoWebApi\GestionApiForecastGTFS\obj\Debug\netcoreapp3.1\GestionApiForecastGTFS.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Desktop\Evaulacion-technical-leader-Pwc\Code\BackEnd\GestionSubterraneoWebApi\GestionApiForecastGTFS\bin\Debug\netcoreapp3.1\GestionApiForecastGTFS.exe
+C:\Users\usuario\Desktop\Evaulacion-technical-leader-Pwc\Code\BackEnd\GestionSubterraneoWebApi\GestionApiForecastGTFS\bin\Debug\netcoreapp3.1\GestionApiForecastGTFS.deps.json
+C:\Users\usuario\Desktop\Evaulacion-technical-leader-Pwc\Code\BackEnd\GestionSubterraneoWebApi\GestionApiForecastGTFS\bin\Debug\netcoreapp3.1\GestionApiForecastGTFS.runtimeconfig.json
+C:\Users\usuario\Desktop\Evaulacion-technical-leader-Pwc\Code\BackEnd\GestionSubterraneoWebApi\GestionApiForecastGTFS\bin\Debug\netcoreapp3.1\GestionApiForecastGTFS.runtimeconfig.dev.json
+C:\Users\usuario\Desktop\Evaulacion-technical-leader-Pwc\Code\BackEnd\GestionSubterraneoWebApi\GestionApiForecastGTFS\bin\Debug\netcoreapp3.1\GestionApiForecastGTFS.dll
+C:\Users\usuario\Desktop\Evaulacion-technical-leader-Pwc\Code\BackEnd\GestionSubterraneoWebApi\GestionApiForecastGTFS\bin\Debug\netcoreapp3.1\GestionApiForecastGTFS.pdb
+C:\Users\usuario\Desktop\Evaulacion-technical-leader-Pwc\Code\BackEnd\GestionSubterraneoWebApi\GestionApiForecastGTFS\obj\Debug\netcoreapp3.1\GestionApiForecastGTFS.dll
+C:\Users\usuario\Desktop\Evaulacion-technical-leader-Pwc\Code\BackEnd\GestionSubterraneoWebApi\GestionApiForecastGTFS\obj\Debug\netcoreapp3.1\GestionApiForecastGTFS.pdb
+C:\Users\usuario\Desktop\Evaulacion-technical-leader-Pwc\Code\BackEnd\GestionSubterraneoWebApi\GestionApiForecastGTFS\obj\Debug\netcoreapp3.1\GestionApiForecastGTFS.genruntimeconfig.cache

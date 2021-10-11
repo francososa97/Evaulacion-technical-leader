@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31112.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestionSubterraneoWebApi", "GestionSubterraneoWebApi\GestionSubterraneoWebApi.csproj", "{FD6B9D0C-38D2-4521-9140-5348C633F0BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestionSubterraneoWebApi", "GestionSubterraneoWebApi\GestionSubterraneoWebApi.csproj", "{FD6B9D0C-38D2-4521-9140-5348C633F0BC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modelos", "Modelos\Modelos.csproj", "{71021BEE-39EA-4EFE-BC0E-31C638F9BE06}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{FD6B9D0C-38D2-4521-9140-5348C633F0BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD6B9D0C-38D2-4521-9140-5348C633F0BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD6B9D0C-38D2-4521-9140-5348C633F0BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71021BEE-39EA-4EFE-BC0E-31C638F9BE06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71021BEE-39EA-4EFE-BC0E-31C638F9BE06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71021BEE-39EA-4EFE-BC0E-31C638F9BE06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71021BEE-39EA-4EFE-BC0E-31C638F9BE06}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
