@@ -1,0 +1,180 @@
+{
+	"info": {
+		"_postman_id": "22b8409b-bd1f-4626-a137-5102075a1862",
+		"name": "Gestion Alertas",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Servicio Alerts Api",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "gtfs_realtime_version",
+						"value": "1.0",
+						"type": "text"
+					},
+					{
+						"key": "incrementality",
+						"value": "1",
+						"type": "text"
+					},
+					{
+						"key": "timestamp",
+						"value": "1633929202",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://apitransporte.buenosaires.gob.ar/subtes/serviceAlerts?json=1&client_id=1&client_secret=2",
+					"protocol": "https",
+					"host": [
+						"apitransporte",
+						"buenosaires",
+						"gob",
+						"ar"
+					],
+					"path": [
+						"subtes",
+						"serviceAlerts"
+					],
+					"query": [
+						{
+							"key": "json",
+							"value": "1"
+						},
+						{
+							"key": "client_id",
+							"value": "1"
+						},
+						{
+							"key": "client_secret",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all Registro de incidente base de datos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44307/alertas",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44307",
+					"path": [
+						"alertas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Registro de incidente by Id",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "id",
+							"value": "1\n",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://localhost:44307/alertas/2",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44307",
+					"path": [
+						"alertas",
+						"2"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Api mock Alerts",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44302/ApiMockAlerts",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44302",
+					"path": [
+						"ApiMockAlerts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Servicio ramal",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44307/alertaestado/nombreUsuario",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44307",
+					"path": [
+						"alertaestado",
+						"nombreUsuario"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Servicio ramal mock",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44307/mock/alertaestado/nombreUsuario",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44307",
+					"path": [
+						"mock",
+						"alertaestado",
+						"nombreUsuario"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

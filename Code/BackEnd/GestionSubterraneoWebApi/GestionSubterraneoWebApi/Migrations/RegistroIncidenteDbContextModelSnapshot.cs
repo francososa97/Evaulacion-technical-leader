@@ -26,6 +26,12 @@ namespace GestionSubterraneoWebApi.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+                    b.Property<int>("FK_Registros_CausaIncidente_IdCausa")
+                        .HasColumnType("int");
+
+                    b.Property<int>("FK_Registros_EfectoIncidente_IdEfecto")
+                        .HasColumnType("int");
+
                     b.Property<DateTime>("FechaConsultado")
                         .HasColumnType("datetime2");
 
@@ -35,18 +41,71 @@ namespace GestionSubterraneoWebApi.Migrations
                     b.Property<DateTime>("FechaInicio")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("IdCausa")
-                        .HasColumnType("int");
-
-                    b.Property<int>("IdEfecto")
-                        .HasColumnType("int");
-
                     b.Property<string>("NombreUsuario")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
+                    b.HasIndex("FK_Registros_CausaIncidente_IdCausa");
+
+                    b.HasIndex("FK_Registros_EfectoIncidente_IdEfecto");
+
                     b.ToTable("Registros");
+                });
+
+            modelBuilder.Entity("Modelos.Base_de_datos.Causa", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Descripcion")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("RegistrosId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("CausaIncidente");
+                });
+
+            modelBuilder.Entity("Modelos.Base_de_datos.Efecto", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Descripcion")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("RegistrosId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("EfectoIncidente");
+                });
+
+            modelBuilder.Entity("GestionSubterraneoWebApi.Modelos.RegistroIncidente", b =>
+                {
+                    b.HasOne("Modelos.Base_de_datos.Causa", "Causa")
+                        .WithMany()
+                        .HasForeignKey("FK_Registros_CausaIncidente_IdCausa")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Modelos.Base_de_datos.Efecto", "Efecto")
+                        .WithMany()
+                        .HasForeignKey("FK_Registros_EfectoIncidente_IdEfecto")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Causa");
+
+                    b.Navigation("Efecto");
                 });
 #pragma warning restore 612, 618
         }

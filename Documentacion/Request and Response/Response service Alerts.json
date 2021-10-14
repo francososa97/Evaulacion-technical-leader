@@ -1,49 +1,46 @@
 {
-    "header": {
-      "gtfs_realtime_version": "1.0",
+  "header": {
+      "gtfs_realtime_version": "2.0",
       "incrementality": 0,
-      "timestamp": 1525802328
-    },
-    "entity": {
-      "active_period": [
-        {
-          "start": 1525888786,
-          "end": 1525888983
-        },
-        {
-          "start": 1525890087,
-          "end": 1525989878
-        }
-      ],
-      "informed_entity": [
-        {
-          "agency_id": "",
-          "route_id": "",
-          "route_type": 0,
-          "stop_id": ""
-        }
-      ],
-      "cause": 3,
-      "effect": 3,
-      "header_text": [
-        {
-          "text": "Servicio con demoras - 60",
-          "language": "es"
-        },
-        {
-          "text": "Significant delays - 60",
-          "language": "en"
-        }
-      ],
-      "description_text": [
-        {
-          "text": "Línea 60 - Servicio con demora por problemas técnicos",
-          "language": "es"
-        },
-        {
-          "text": "60 - Significant delays due to technical problems",
-          "language": "en"
-        }
-      ]
-    }
+      "timestamp": 1634222246
+  },
+  "entity": [
+      {
+          "id": "Alert_LineaE",
+          "is_deleted": false,
+          "trip_update": null,
+          "vehicle": null,
+          "alert": {
+              "active_period": [],
+              "informed_entity": [
+                  {
+                      "agency_id": "",
+                      "route_id": "LineaE",
+                      "route_type": 0,
+                      "trip": null,
+                      "stop_id": ""
+                  }
+              ],
+              "cause": 2,
+              "effect": 3,
+              "url": null,
+              "header_text": {
+                  "translation": [
+                      {
+                          "text": "Servicio con demora",
+                          "language": "es"
+                      }
+                  ]
+              },
+              "description_text": {
+                  "translation": [
+                      {
+                          "text": "Servicio con demora",
+                          "language": "es"
+                      }
+                  ]
+              }
+          }
+      }
+  ]
 }

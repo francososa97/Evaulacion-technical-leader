@@ -1,0 +1,138 @@
+{
+	"info": {
+		"_postman_id": "426018f8-4211-4a24-a0b2-a13bb3ed77fc",
+		"name": "Gestion Forecast",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Servicio Forecast GTFS Api",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://apitransporte.buenosaires.gob.ar/subtes/forecastGTFS?client_id=1&client_secret=1",
+					"protocol": "https",
+					"host": [
+						"apitransporte",
+						"buenosaires",
+						"gob",
+						"ar"
+					],
+					"path": [
+						"subtes",
+						"forecastGTFS"
+					],
+					"query": [
+						{
+							"key": "client_id",
+							"value": "1"
+						},
+						{
+							"key": "client_secret",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Forecast por parametro",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "https://localhost:44307/forecast/usuario=franco&linea=a&estacion=Perú&destino=Plaza de Mayo",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44307",
+					"path": [
+						"forecast",
+						"usuario=franco&linea=a&estacion=Perú&destino=Plaza de Mayo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Api mock forecast",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44302/ApiMockForecast",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44302",
+					"path": [
+						"ApiMockForecast"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get estaciones",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "linea",
+							"value": "A",
+							"type": "text"
+						},
+						{
+							"key": "usuario",
+							"value": "franco",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://localhost:44307/forecast/estacion/linea=A&usuario=franco",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44307",
+					"path": [
+						"forecast",
+						"estacion",
+						"linea=A&usuario=franco"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

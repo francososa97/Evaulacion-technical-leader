@@ -6,3 +6,4 @@ C:\Users\usuario\Desktop\Evaulacion-technical-leader-Pwc\Code\BackEnd\GestionSub
 C:\Users\usuario\Desktop\Evaulacion-technical-leader-Pwc\Code\BackEnd\GestionSubterraneoWebApi\Modelos\obj\Debug\netcoreapp3.1\Modelos.csproj.CoreCompileInputs.cache
 C:\Users\usuario\Desktop\Evaulacion-technical-leader-Pwc\Code\BackEnd\GestionSubterraneoWebApi\Modelos\obj\Debug\netcoreapp3.1\Modelos.dll
 C:\Users\usuario\Desktop\Evaulacion-technical-leader-Pwc\Code\BackEnd\GestionSubterraneoWebApi\Modelos\obj\Debug\netcoreapp3.1\Modelos.pdb
+C:\Users\usuario\Desktop\Evaulacion-technical-leader-Pwc\Code\BackEnd\GestionSubterraneoWebApi\Modelos\obj\Debug\netcoreapp3.1\Modelos.csprojAssemblyReference.cache
